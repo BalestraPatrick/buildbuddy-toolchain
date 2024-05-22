@@ -451,6 +451,7 @@ windows_cc_toolchain_config(
         "C:\\Program Files (x86)\\Windows Kits\\%{windows_kits_release}\\Include\\%{windows_kits_version}\\ucrt",
         "C:\\BuildTools\\VC\\Auxiliary\\VS\\include",
         "C:\\BuildTools\\VC\\Tools\\MSVC\\%{msvc_version}\\include",
+        %{extra_cxx_builtin_include_directories}
     ],
     tool_paths = {
         "ar": "C:/BuildTools/VC/Tools/MSVC/%{msvc_version}/bin/HostX64/x64/lib.exe",
