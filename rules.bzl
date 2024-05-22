@@ -138,7 +138,7 @@ def buildbuddy(
         gcc_version = "",
         msvc_edition = "Community",
         msvc_release = "2022",
-        msvc_version = "14.39.33519",
+        msvc_version = "14.36.32532",
         windows_kits_release = "10",
         windows_kits_version = "10.0.22621.0",
         extra_cxx_builtin_include_directories = []):
