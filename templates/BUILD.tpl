@@ -413,7 +413,7 @@ windows_cc_toolchain_config(
     abi_version = "local",
     abi_libc_version = "local",
     toolchain_identifier = "msvc_toolchain_config",
-    msvc_env_tmp = "C:\\Users\\User\\AppData\\Local\\Temp",
+    msvc_env_tmp = "C:\\Users\\ContainerAdministrator\\AppData\\Local\\Temp",
     msvc_env_path = ";".join([
         "C:\\BuildTools\\Common7\\IDE\\",
         "C:\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow",
